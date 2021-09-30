@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+/* font-family: 'Caveat', cursive; -- Resultado
+font-family: 'Francois One', sans-serif; -- Títulos
+font-family: 'Inconsolata', monospace; -- Texto normal */
+
+h1, h2, h3, h4 {
+    font-family: 'Francois One', sans-serif;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    color: whitesmoke;
+}
+
+header {
+    padding: 0.5%;
+    text-align: center;
+    background-color: #171717;
+}
+
+header img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 80px;
+}
+
+header h2 {
+    color: whitesmoke;
+}
+
+body {
+    background: #363636;
+}
+
+.initial-container {
+    margin-top: 1%;
+}
+
+.initial-container h3 {
+    font-family: initial;
+    text-align: center;
+    color: #171717;
+}
+
+.initial-container h4 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: rgb(221, 221, 221);
+}
+
+.plato-phrase {
+    margin-top: 1%;
+}
+
+.image {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.introduction {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.introduction p {
+    margin-top: 0.5%;
+    font-family: 'Inconsolata', monospace;
+    color: whitesmoke;
+}
+
+.dice-list-container {
+    text-align: center;
+}
+
+.die-list {
+    margin: 3% 10%;
+    justify-content: space-evenly;
+    display: flex;
+
+    list-style: none;
+}
+
+.die {
+    transition: 1s;
+    padding: 1% 0.5%;
+    width: 11%;
+    
+    border: 2px solid #171717;
+
+    background-color: #444444;
+}
+
+.die:hover {
+    transform: scale(1.02);
+    background-color: rgb(49, 49, 49);
+    transition: 0.3s;
+}
+
+.die-item {
+    margin: 4% 0;
+
+}
+
+.die img {
+    width: 9,726848767488341%
+}
+
+.die p {
+    font-size: 14px;
+}
+
+.die-button {
+    padding: 6% 20%;
+    
+    font-size: 1em;
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+
+    border: transparent solid;
+    border-radius: 22px;
+
+    background-color: #DA0037;
+    color: whitesmoke;
+
+    transition: 0.5s;
+}
+
+.die-button:hover {
+    background-color: #b4002d;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.die-button:active {
+    padding: 6% 18%;
+}
+
+.die-input {
+    margin-top: 4%;
+    padding: 6% 0;
+    width: 65%;
+
+    text-align: center;
+    
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+
+    border: transparent solid;
+    border-radius: 22px;
+
+    background-color: #DA0037;
+    color: whitesmoke;
+
+    transition: 0.5s;
+
+}
+
+.die-input:focus {
+    box-shadow: 0;
+    outline: 0;
+}
+
+.die-input:hover {
+    background-color: #b4002d;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.die-input::placeholder {
+    color: whitesmoke;;
+    font-size: 1.2em;
+}
+
+.die-input:focus::placeholder {
+    color: gray;
+}
+
+/* 
+O P T I O N S  S C R E E N
+*/
+
+.options-dice {
+    text-align: center;
+  
+}
+
+.options-dice h3 {
+    margin: 4.5% 0;
+    font-size: 16px;
+}
+
+.options-dice h3:not(h3:first-child, h3:last-child) {
+    margin-top: 10%;
+}
+
+.options-dice p {
+    font-size: 13px;
+}
+
+.amount-dice {
+    width: 15%;
+    display: inline;
+
+    border: transparent solid;
+    border-radius: 35%;
+
+    text-align: right;
+
+}
+
+.amount-dice:focus {
+    box-shadow: 0;
+    outline: 0;
+}
+
+.amount-p {
+    display: inline;
+}
+
+.dice-atributtes {
+    margin-bottom: 5%;
+    padding: 2% 0;
+}
+
+.dice-atributtes button, p {
+    display: inline;
+}
+
+.dice-atributtes button {
+    width: 15%;
+    min-width: 1%;
+    
+    border: transparent solid;
+    border-radius: 50%;
+
+    background-color: #DA0037;
+    color: whitesmoke;
+}
+
+.dice-atributtes button:hover {
+    background-color: #b4002d;
+    cursor: pointer;
+}
+
+.dice-atributtes button:active {
+    background-color: #da1747;
+}
+
+.difficulty-button {
+    margin-right: 0.3%;
+    width: 31%;
+    height: 26%;
+    
+    font-family: 'Francois One', sans-serif;
+
+    border: transparent solid;
+    border-radius: 8px;
+
+    background-color: #DA0037;
+    color: whitesmoke;
+}
+
+.difficulty-button-enabled {
+    background-color: rgb(168, 0, 42);
+}
+
+.roll-dice {
+    margin-top: 5%;
+    padding: 0.4% 1.2%;
+    width: 90%;
+    
+    font-size: 1em;
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 15px;
+
+    background-color: #DA0037;
+    color: whitesmoke;
+
+}
+
+.difficulty-button:hover, .roll-dice:hover {
+    background-color: #b4002d;
+    cursor: pointer;
+}
+
