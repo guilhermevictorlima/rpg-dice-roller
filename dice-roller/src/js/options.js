@@ -1,4 +1,3 @@
-import roll from "../../scrolling.js";
 import { difficulties } from "./difficulties.js";
 
 const rollOptions = (dieValue, dieElement)=> {
