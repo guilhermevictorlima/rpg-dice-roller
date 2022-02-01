@@ -20,12 +20,12 @@ font-family: 'Inconsolata', monospace; -- Texto normal */
 
 h1, h2, h3, h4 {
     font-family: 'Francois One', sans-serif;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 p {
     font-family: 'Inconsolata', monospace;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 header {
@@ -41,7 +41,7 @@ header img {
 }
 
 header h2 {
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 body {
@@ -61,7 +61,7 @@ body {
 .initial-container h4 {
     font-family: 'Inconsolata', monospace;
     text-align: center;
-    color: rgb(221, 221, 221);
+    color: #dddddd;
 }
 
 .plato-phrase {
@@ -81,7 +81,7 @@ body {
 .introduction p {
     margin-top: 0.5%;
     font-family: 'Inconsolata', monospace;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 .dice-list-container {
@@ -104,7 +104,7 @@ body {
 
 .die:hover {
     transform: scale(1.02);
-    background-color: rgb(49, 49, 49);
+    background-color: #313131;
     transition: 0.3s;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .die img {
-    width: 9,726848767488341%
+    width: 80%;
 }
 
 .die p {
@@ -127,7 +127,7 @@ body {
 }
 
 .selected-die {
-	border: 2px solid black;
+	border: 2px solid #000;
 	background-color: #171717;
 }
 
@@ -142,7 +142,7 @@ body {
     border-radius: 22px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 
     transition: 0.5s;
 }
@@ -171,7 +171,7 @@ body {
     border-radius: 22px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 
     transition: 0.5s;
 
@@ -189,12 +189,12 @@ body {
 }
 
 .die-input::placeholder {
-    color: whitesmoke;;
+    color: #F5F5F5;
     font-size: 1.2em;
 }
 
 .die-input:focus::placeholder {
-    color: gray;
+    color: #808080;
 }
 
 /* 
@@ -256,7 +256,7 @@ O P T I O N S  S C R E E N
     border-radius: 50%;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 .dice-attributes button:hover {
@@ -265,6 +265,28 @@ O P T I O N S  S C R E E N
 }
 
 .dice-attributes button:active {
+    background-color: #da1747;
+}
+
+.dice-attributes-btn {
+    margin-right: 0.3%;
+    width: 3%;
+    height: 30px;
+    font-family: 'Francois One', sans-serif;
+
+    border: transparent solid;
+    border-radius: 8px;
+    
+    background-color: #da0037;
+    color: #F5F5F5;
+}
+
+.dice-attributes-btn:hover {
+    background-color: #b4002d;
+    cursor: pointer;
+}
+
+.dice-attributes-btn:active {
     background-color: #da1747;
 }
 
@@ -279,11 +301,11 @@ O P T I O N S  S C R E E N
     border-radius: 8px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 .difficulty-button-enabled {
-    background-color: rgb(168, 0, 42);
+    background-color: #A8002A;
 }
 
 .roll-dice {
@@ -299,7 +321,7 @@ O P T I O N S  S C R E E N
     border-radius: 15px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 
 }
 
@@ -308,3 +330,9 @@ O P T I O N S  S C R E E N
     cursor: pointer;
 }
 
+.footer {
+    padding: 1%;
+    text-align: center;
+    background-color: #171717;
+
+}
