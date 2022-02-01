@@ -100,10 +100,6 @@ body {
     transition: 1s;
     padding: 1% 0.5%;
     width: 11%;
-    
-    border: 2px solid #171717;
-
-    background-color: #444444;
 }
 
 .die:hover {
@@ -123,6 +119,16 @@ body {
 
 .die p {
     font-size: 14px;
+}
+
+.unselected-die {
+    border: 2px solid #171717;
+    background-color: #444444;
+}
+
+.selected-die {
+	border: 2px solid black;
+	background-color: #171717;
 }
 
 .die-button {
@@ -233,16 +239,16 @@ O P T I O N S  S C R E E N
     display: inline;
 }
 
-.dice-atributtes {
+.dice-attributes {
     margin-bottom: 5%;
     padding: 2% 0;
 }
 
-.dice-atributtes button, p {
+.dice-attributes button, p {
     display: inline;
 }
 
-.dice-atributtes button {
+.dice-attributes button {
     width: 15%;
     min-width: 1%;
     
@@ -253,12 +259,12 @@ O P T I O N S  S C R E E N
     color: whitesmoke;
 }
 
-.dice-atributtes button:hover {
+.dice-attributes button:hover {
     background-color: #b4002d;
     cursor: pointer;
 }
 
-.dice-atributtes button:active {
+.dice-attributes button:active {
     background-color: #da1747;
 }
 
