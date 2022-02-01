@@ -44,6 +44,11 @@ header h2 {
     color: #F5F5F5;
 }
 
+main {
+    padding: 1%;
+    margin: 1%;
+}
+
 body {
     background: #363636;
 }
@@ -224,7 +229,7 @@ O P T I O N S  S C R E E N
     display: inline;
 
     border: transparent solid;
-    border-radius: 35%;
+    border-radius: 8px;
 
     text-align: right;
 
@@ -244,33 +249,14 @@ O P T I O N S  S C R E E N
     padding: 2% 0;
 }
 
-.dice-attributes button, p {
+.dice-attributes-btn, p {
     display: inline;
-}
-
-.dice-attributes button {
-    width: 15%;
-    min-width: 1%;
-    
-    border: transparent solid;
-    border-radius: 50%;
-
-    background-color: #DA0037;
-    color: #F5F5F5;
-}
-
-.dice-attributes button:hover {
-    background-color: #b4002d;
-    cursor: pointer;
-}
-
-.dice-attributes button:active {
-    background-color: #da1747;
 }
 
 .dice-attributes-btn {
     margin-right: 0.3%;
     width: 3%;
+    min-width: 1%;
     height: 30px;
     font-family: 'Francois One', sans-serif;
 
@@ -331,8 +317,16 @@ O P T I O N S  S C R E E N
 }
 
 .footer {
-    padding: 1%;
-    text-align: center;
+    padding: 0 0 1% 0;
     background-color: #171717;
+    text-align: center;
+}
 
+.brand-footer {
+    width: 1.8%;
+}
+
+.copyright {
+    margin: 1%;
+    padding: 1%;
 }
