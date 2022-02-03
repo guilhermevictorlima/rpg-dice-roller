@@ -20,12 +20,12 @@ font-family: 'Inconsolata', monospace; -- Texto normal */
 
 h1, h2, h3, h4 {
     font-family: 'Francois One', sans-serif;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 p {
     font-family: 'Inconsolata', monospace;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 header {
@@ -41,7 +41,12 @@ header img {
 }
 
 header h2 {
-    color: whitesmoke;
+    color: #F5F5F5;
+}
+
+main {
+    padding: 1%;
+    margin: 1%;
 }
 
 body {
@@ -61,7 +66,7 @@ body {
 .initial-container h4 {
     font-family: 'Inconsolata', monospace;
     text-align: center;
-    color: rgb(221, 221, 221);
+    color: #dddddd;
 }
 
 .plato-phrase {
@@ -81,7 +86,7 @@ body {
 .introduction p {
     margin-top: 0.5%;
     font-family: 'Inconsolata', monospace;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 .dice-list-container {
@@ -104,7 +109,7 @@ body {
 
 .die:hover {
     transform: scale(1.02);
-    background-color: rgb(49, 49, 49);
+    background-color: #313131;
     transition: 0.3s;
 }
 
@@ -114,7 +119,7 @@ body {
 }
 
 .die img {
-    width: 9,726848767488341%
+    width: 80%;
 }
 
 .die p {
@@ -127,7 +132,7 @@ body {
 }
 
 .selected-die {
-	border: 2px solid black;
+	border: 2px solid #000;
 	background-color: #171717;
 }
 
@@ -142,7 +147,7 @@ body {
     border-radius: 22px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 
     transition: 0.5s;
 }
@@ -171,7 +176,7 @@ body {
     border-radius: 22px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 
     transition: 0.5s;
 
@@ -189,12 +194,12 @@ body {
 }
 
 .die-input::placeholder {
-    color: whitesmoke;;
+    color: #F5F5F5;
     font-size: 1.2em;
 }
 
 .die-input:focus::placeholder {
-    color: gray;
+    color: #808080;
 }
 
 /* 
@@ -224,7 +229,7 @@ O P T I O N S  S C R E E N
     display: inline;
 
     border: transparent solid;
-    border-radius: 35%;
+    border-radius: 8px;
 
     text-align: right;
 
@@ -244,27 +249,30 @@ O P T I O N S  S C R E E N
     padding: 2% 0;
 }
 
-.dice-attributes button, p {
+.dice-attributes-btn, p {
     display: inline;
 }
 
-.dice-attributes button {
-    width: 15%;
+.dice-attributes-btn {
+    margin-right: 0.3%;
+    width: 3%;
     min-width: 1%;
-    
-    border: transparent solid;
-    border-radius: 50%;
+    height: 30px;
+    font-family: 'Francois One', sans-serif;
 
-    background-color: #DA0037;
-    color: whitesmoke;
+    border: transparent solid;
+    border-radius: 8px;
+    
+    background-color: #da0037;
+    color: #F5F5F5;
 }
 
-.dice-attributes button:hover {
+.dice-attributes-btn:hover {
     background-color: #b4002d;
     cursor: pointer;
 }
 
-.dice-attributes button:active {
+.dice-attributes-btn:active {
     background-color: #da1747;
 }
 
@@ -279,11 +287,11 @@ O P T I O N S  S C R E E N
     border-radius: 8px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 .difficulty-button-enabled {
-    background-color: rgb(168, 0, 42);
+    background-color: #A8002A;
 }
 
 .roll-dice {
@@ -299,7 +307,7 @@ O P T I O N S  S C R E E N
     border-radius: 15px;
 
     background-color: #DA0037;
-    color: whitesmoke;
+    color: #F5F5F5;
 
 }
 
@@ -308,3 +316,17 @@ O P T I O N S  S C R E E N
     cursor: pointer;
 }
 
+.footer {
+    padding: 0 0 1% 0;
+    background-color: #171717;
+    text-align: center;
+}
+
+.brand-footer {
+    width: 1.8%;
+}
+
+.copyright {
+    margin: 1%;
+    padding: 1%;
+}
