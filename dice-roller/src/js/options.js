@@ -36,9 +36,9 @@ const optionsContent = (value)=> {
 				
 				<h3>Attributes</h3>
 				<div class="dice-attributes">
-					<button data-minus id="-1">-</button>
+					<button data-minus id="-1" class="dice-attributes-btn">-</button>
 					<p data-result-attribute>0</p>
-					<button data-plus id="1">+</button>
+					<button data-plus id="1" class="dice-attributes-btn">+</button>
 				</div>
 				<p>Advantages or disadvantages</p>
 				
